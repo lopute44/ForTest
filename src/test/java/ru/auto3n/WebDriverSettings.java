@@ -10,7 +10,7 @@ public class WebDriverSettings {
 
     @Before
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:/Program Files (x86)/IntelliJ IDEA/webDriver/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/home/Ilyina/Programs/chromedriver");//C:/Program Files (x86)/IntelliJ IDEA/webDriver/chromedriver.exe*/"
 
         driver = new ChromeDriver();
     }
